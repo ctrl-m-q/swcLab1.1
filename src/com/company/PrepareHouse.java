@@ -7,6 +7,9 @@ public abstract class PrepareHouse {
             construcPillars();
             construcWalls();
             construcWindows();
+                //you need to add lintel
+             construclintel();
+                
             System.out.println("House is constructed.");
         }
 
@@ -19,6 +22,8 @@ public abstract class PrepareHouse {
         public abstract void construcWalls();
 
         public abstract void construcWindows();
+        
+        public abstract void construclintel();
 
     }
 
